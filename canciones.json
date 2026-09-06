@@ -79,8 +79,8 @@
   },
   {
     "id": 14,
-    "artista": "Varios",
-    "cancion": "Amor Clasificado   Rodrigo",
+    "artista": "Rodrigo",
+    "cancion": "Amor Clasificado",
     "genero": "Cumbia"
   },
   {
@@ -205,8 +205,8 @@
   },
   {
     "id": 35,
-    "artista": "Varios",
-    "cancion": "CóMo Le Digo   Rodrigo",
+    "artista": "Rodrigo",
+    "cancion": "CóMo Le Digo",
     "genero": "Cumbia"
   },
   {
@@ -334,12 +334,6 @@
     "artista": "Gianluca Grignani",
     "cancion": "Mi Historia Entre Tus Dedos",
     "genero": "Pop"
-  },
-  {
-    "id": 57,
-    "artista": "Varios",
-    "cancion": "Gilda   CorazóN Valiente",
-    "genero": "Cumbia"
   },
   {
     "id": 58,
@@ -595,8 +589,8 @@
   },
   {
     "id": 100,
-    "artista": "Varios",
-    "cancion": "La Quinta Estacion Karaoke Que Te Queria",
+    "artista": "La Quinta Estacion",
+    "cancion": "Que Te Queria",
     "genero": "Pop"
   },
   {
@@ -637,8 +631,8 @@
   },
   {
     "id": 107,
-    "artista": "Varios",
-    "cancion": "Lo Mejor Del Amor   Rodrigo",
+    "artista": "Rodrigo",
+    "cancion": "Lo Mejor Del Amor",
     "genero": "Cumbia"
   },
   {
@@ -721,8 +715,8 @@
   },
   {
     "id": 121,
-    "artista": "Varios",
-    "cancion": "Los Palmeras   Cumbia Sobre El Mar",
+    "artista": "Los Palmeras",
+    "cancion": "Cumbia Sobre El Mar",
     "genero": "Cumbia"
   },
   {
@@ -847,8 +841,8 @@
   },
   {
     "id": 142,
-    "artista": "Varios",
-    "cancion": "Marc Anthony  Nadie Como Ella",
+    "artista": "Marc Anthony",
+    "cancion": "Nadie Como Ella",
     "genero": "Pop"
   },
   {
@@ -949,8 +943,8 @@
   },
   {
     "id": 159,
-    "artista": "Varios",
-    "cancion": "Pablo Tamagnini   El Rey",
+    "artista": "Pablo Tamagnini",
+    "cancion": "El Rey",
     "genero": "Cumbia"
   },
   {

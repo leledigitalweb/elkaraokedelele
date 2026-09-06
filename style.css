@@ -14,20 +14,24 @@ body {
     display: flex;
     flex-direction: column
 }
-.ldw{
+
+.ldw {
     margin: 0 0 15px;
     color: gainsboro;
 }
-.ldw a{
+
+.ldw a {
     text-decoration: none;
 }
-.ldw span{
+
+.ldw span {
     color: gainsboro;
     font-weight: 700;
 }
+
 header {
     text-align: center;
-    padding: 28px 20px 18px;
+    padding: 28px 10px 10px;
     border-bottom: 1px solid #222
 }
 
@@ -38,8 +42,8 @@ header h1 {
 
 header p {
     color: #aaa;
-    margin-top: 6px;
-    font-size: 14px
+    margin-top: 16px;
+    font-size: 20px
 }
 
 main {
@@ -83,7 +87,7 @@ img {
     font-size: 12px
 }
 
-.filters {
+#filters {
     display: flex;
     gap: 8px;
     overflow-x: auto;
@@ -91,11 +95,11 @@ img {
     scrollbar-width: none
 }
 
-.filters::-webkit-scrollbar {
+#filters::-webkit-scrollbar {
     display: none
 }
 
-.filters button {
+#filters button {
     white-space: nowrap;
     background: #1E1E1E;
     border: 1px solid #333;
@@ -107,10 +111,29 @@ img {
     flex-shrink: 0
 }
 
-.filters button.active {
-    background: #FF3B3B;
+#filters button.active {
+    background: #ca2626;
     border-color: #FF3B3B;
     color: #fff
+}
+
+.filters-wrap {
+    position: relative;
+}
+
+.filters-arrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 40px;
+    color: #fff;
+    background: linear-gradient(to right, transparent, #0d0d0d 60%);
+    pointer-events: auto;
+    cursor: pointer;
 }
 
 #list {
@@ -174,7 +197,8 @@ img {
 }
 
 .card button {
-    background: #FF3B3B;
+    background: #ca2626;
+    border-color: #FF3B3B;
     color: #fff;
     border: none;
     padding: 9px 14px;
@@ -210,7 +234,7 @@ footer {
 }
 
 footer a {
-    color: #FF3B3B;
+    color: #ca2626;
     text-decoration: none
 }
 
@@ -306,7 +330,7 @@ footer a {
 
 .close {
     width: 100%;
-    background: #FF3B3B;
+    background: #ca2626;
     color: #fff;
     border: none;
     padding: 14px;
@@ -314,4 +338,47 @@ footer a {
     font-weight: 700;
     margin-top: 12px;
     cursor: pointer
+}
+
+.name-form {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+}
+
+#nameInput {
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+    background: #1E1E1E;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+#nameInput:focus {
+    border-color: #FF3B3B;
+}
+
+#nameInput::placeholder {
+    color: #888;
+}
+
+#nameContinueBtn {
+    background: #ca2626;
+    border: 1px solid #FF3B3B;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#nameContinueBtn:hover {
+    background: #e23232;
 }

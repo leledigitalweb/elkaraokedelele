@@ -44,8 +44,6 @@ function apply() {
   render();
 }
 
-// PONÉ TU NÚMERO ACÁ - con código país, sin + ni espacios
-// Ejemplo Argentina: 5491123456789
 const LELE_WHATSAPP = "5491166912294";
 
 function render() {
@@ -58,7 +56,7 @@ function render() {
         <div class="badges">
         </div>
         </div>
-        <button onclick="openModal(${s.id})">🎤 Pedila</button>
+          <button onclick="askName(${s.id})">🎤 Cantar</button>
         </div>
         `).join("");
   countEl.textContent = `${filtered.length} canciones • ${allSongs.length} en total`;
@@ -67,42 +65,50 @@ function render() {
     listEl.innerHTML = `<div style="text-align:center;padding:30px;color:#666">No encontramos nada con "${escapeHtml(searchEl.value)}"<br>Probá con menos palabras</div>`;
   }
 }
+let currentSong = null;
+let currentName = "";
+let pendingSongId = null;
 
-// window.openModal = function(id){
-//   const s = allSongs.find(x=>x.id===id);
-//   if(!s) return;
-//   document.getElementById("modalSong").textContent = `${s.artista} - ${s.cancion}`;
-//   document.getElementById("modalCode").textContent = `${s.cancion} - ${s.artista}`;
+window.askName = function (id) {
+  pendingSongId = id;
+  document.getElementById("nameInput").value = currentName;
+  document.getElementById("nameModal").classList.remove("hidden");
+  document.getElementById("nameInput").focus();
+}
 
-//   // Creamos el mensaje de WhatsApp
-//   const mensaje = `Hola Lele! Quiero cantar: ${s.cancion} - ${s.artista}`;
-//   const url = `https://wa.me/${LELE_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
+document.getElementById("nameContinueBtn").onclick = () => {
+  const nombre = document.getElementById("nameInput").value.trim();
+  if (!nombre) {
+    alert("Escribí tu nombre para continuar");
+    return;
+  }
+  currentName = nombre;
+  document.getElementById("nameModal").classList.add("hidden");
+  openModal(pendingSongId);
+};
 
-//   const copyBtn = document.getElementById("copyBtn");
-//   copyBtn.textContent = "💬 Enviar por WhatsApp";
-//   copyBtn.onclick = () => {
-//     window.open(url, '_blank');
-//   };
+document.getElementById("nameInput").addEventListener("keydown", (e) => {
+  if (e.key === "Enter") document.getElementById("nameContinueBtn").click();
+});
 
-//   document.getElementById("modal").classList.remove("hidden");
-// }
-
-let currentWaUrl = "";
+document.getElementById("nameModalBg").onclick = () => {
+  document.getElementById("nameModal").classList.add("hidden");
+};
 
 window.openModal = function (id) {
   const s = allSongs.find(x => x.id === id);
   if (!s) return;
+  currentSong = s;
   document.getElementById("modalSong").textContent = `${s.artista} - ${s.cancion}`;
   document.getElementById("modalCode").textContent = `${s.cancion} - ${s.artista}`;
-
-  const mensaje = `Hola Lele! Quiero cantar: ${s.cancion} - ${s.artista}. Soy... `;
-  currentWaUrl = `https://wa.me/${LELE_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
-
   document.getElementById("modal").classList.remove("hidden");
 }
 
 document.getElementById("copyBtn").onclick = () => {
-  if (currentWaUrl) window.open(currentWaUrl, '_blank');
+  if (!currentSong || !currentName) return;
+  const mensaje = `Hola Lele! Soy ${currentName} y quiero cantar: ${currentSong.cancion} - ${currentSong.artista}.`;
+  const url = `https://wa.me/${LELE_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
+  window.open(url, '_blank');
 };
 
 function escapeHtml(t) { return t.replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m])); }
@@ -111,10 +117,6 @@ function closeModal() { document.getElementById("modal").classList.add("hidden")
 
 document.getElementById("modalBg").onclick = closeModal;
 document.getElementById("closeBtn").onclick = closeModal;
-// document.getElementById("copyBtn").onclick = async () => {
-//   const txt = document.getElementById("modalCode").textContent;
-//   try { await navigator.clipboard.writeText(txt); document.getElementById("copyBtn").textContent = "✅ Copiado"; setTimeout(() => document.getElementById("copyBtn").textContent = "📋 Copiar", 1500); } catch (e) { alert(txt); }
-// };
 
 searchEl.addEventListener("input", () => { apply(); });
 moreBtn.addEventListener("click", () => { visible += 40; render(); });
@@ -125,12 +127,21 @@ filtersEl.addEventListener("click", (e) => {
   currentFilter = e.target.dataset.f;
   apply();
 });
-// document.getElementById("showCarta").addEventListener("click", (e) => {
-//   e.preventDefault();
-//   currentFilter = "Carta";
-//   filtersEl.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.f === "Carta"));
-//   apply();
-//   window.scrollTo({ top: 0, behavior: "smooth" });
-// });
+
+function updateArrow() {
+  const arrow = document.querySelector(".filters-arrow");
+  if (!arrow) return;
+  const atEnd = filtersEl.scrollLeft + filtersEl.clientWidth >= filtersEl.scrollWidth - 2;
+  arrow.style.display = atEnd ? "none" : "flex";
+}
+
+document.querySelector(".filters-arrow").addEventListener("click", () => {
+  filtersEl.scrollBy({ left: 150, behavior: "smooth" });
+});
+
+filtersEl.addEventListener("scroll", updateArrow);
+window.addEventListener("load", updateArrow);
+window.addEventListener("resize", updateArrow);
+
 
 load();

@@ -16,7 +16,7 @@
       <h1>El Karaoke de </h1>
       <img src="lele_palabra.png" alt="Lele">
     </div>
-    <p>Elegí tu canción y mandamela por whatsapp.</p>
+    <p class="ldw">Elegí tu canción y pedimela por whatsapp.</p>
   </header>
 
   <main>
@@ -24,17 +24,19 @@
       <input id="search" type="search" placeholder="🔎 Buscá tu canción o artista..." autocomplete="off" autofocus>
       <span id="count"></span>
     </div>
-
-    <div class="filters" id="filters">
-      <button data-f="Todos" class="active">Todos</button>
-      <button data-f="Cumbia">Cumbia</button>
-      <button data-f="Rock Nacional">Rock Nacional</button>
-      <button data-f="Románticas">Románticas</button>
-      <button data-f="Reggaetón">Reggaetón</button>
-      <button data-f="Pop">Pop</button>
-      <button data-f="Bizarreadas">Bizarreadas</button>
-    
+    <div class="filters-wrap">
+      <div id="filters" id="filters">
+        <button data-f="Todos" class="active">Todos</button>
+        <button data-f="Cumbia">Cumbia</button>
+        <button data-f="Rock Nacional">Rock Nacional</button>
+        <button data-f="Románticas">Románticas</button>
+        <button data-f="Reggaetón">Reggaetón</button>
+        <button data-f="Pop">Pop</button>
+        <button data-f="Bizarreadas">Bizarreadas</button>
+      </div>
+      <div class="filters-arrow">›</div>
     </div>
+
 
     <div id="list"></div>
     <button id="more" style="display:none">Mostrar más</button>
@@ -49,14 +51,25 @@
       <div class="modal-code-wrap">
         <p class="label">Decile a Lele:</p>
         <div id="modalCode" class="modal-code"></div>
-      <button id="copyBtn">💬 Enviar por WhatsApp</button>
+        <button id="copyBtn">💬 Enviar por WhatsApp</button>
       </div>
       <button id="closeBtn" class="close">Cerrar</button>
     </div>
   </div>
+  <div id="nameModal" class="modal hidden">
+    <div class="modal-bg" id="nameModalBg"></div>
+    <div class="modal-box">
+      <div class="modal-icon">👋</div>
+      <h2>¿Cómo te llamo?</h2>
+      <div class="name-form">
+        <input type="text" id="nameInput" placeholder="Tu nombre" maxlength="40">
+        <button id="nameContinueBtn">Continuar</button>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <p>LA CARTA DE LELE • 50 himnos • <a href="#" id="showCarta">Ver solo la carta</a></p>
+
   </footer>
 
   <script src="script.js"></script>
