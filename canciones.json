@@ -75,13 +75,13 @@
     "id": 13,
     "artista": "Americo",
     "cancion": "Te Vas",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 14,
-    "artista": "Varios",
-    "cancion": "Amor Clasificado   Rodrigo",
-    "genero": "Cumbia"
+    "artista": "Rodrigo",
+    "cancion": "Amor Clasificado",
+    "genero": "Cuarteto"
   },
   {
     "id": 15,
@@ -105,25 +105,25 @@
     "id": 18,
     "artista": "Banda Xxi",
     "cancion": "Ahora Te Puedes Marchar",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 19,
     "artista": "Banda Xxi",
     "cancion": "Cuando Me Enamoro",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 20,
     "artista": "Banda Xxi",
     "cancion": "Mi Primavera",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 21,
     "artista": "Banda Xxi",
     "cancion": "Que Bonito",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 22,
@@ -201,13 +201,13 @@
     "id": 34,
     "artista": "Commanche",
     "cancion": "Como Te Lo Digo",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 35,
-    "artista": "Varios",
-    "cancion": "CóMo Le Digo   Rodrigo",
-    "genero": "Cumbia"
+    "artista": "Rodrigo",
+    "cancion": "CóMo Le Digo",
+    "genero": "Cuarteto"
   },
   {
     "id": 36,
@@ -219,7 +219,7 @@
     "id": 37,
     "artista": "Cristian Castro",
     "cancion": "No Podrás",
-    "genero": "Románticas"
+    "genero": "Pop"
   },
   {
     "id": 38,
@@ -289,13 +289,13 @@
   },
   {
     "id": 49,
-    "artista": "Emilia",
-    "cancion": "Los Angeles Azules - Perdonarte Para Que",
-    "genero": "Pop"
+    "artista": "Emilia & Los Angeles Azules",
+    "cancion": "Perdonarte Para Que",
+    "genero": "Cumbia"
   },
   {
     "id": 50,
-    "artista": "Emilia, Tini Y Nicki Nicole",
+    "artista": "Emilia, Tini & Nicki Nicole",
     "cancion": "Blackout",
     "genero": "Reggaetón"
   },
@@ -333,7 +333,7 @@
     "id": 56,
     "artista": "Gianluca Grignani",
     "cancion": "Mi Historia Entre Tus Dedos",
-    "genero": "Pop"
+    "genero": "Románticas"
   },
   {
     "id": 57,
@@ -381,7 +381,7 @@
     "id": 64,
     "artista": "Gladys La Bomba Tucumana",
     "cancion": "La Pollera Amarilla",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 65,
@@ -405,19 +405,19 @@
     "id": 68,
     "artista": "Grupo Play",
     "cancion": "Llora Me Llama",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 69,
     "artista": "Grupo Sombras",
     "cancion": "Pega La Vuelta",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 70,
     "artista": "Grupo Sombras",
     "cancion": "La Ventanita Del Amor",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 71,
@@ -441,7 +441,7 @@
     "id": 74,
     "artista": "Jean Carlos",
     "cancion": "Pero Me Acuerdo De Ti",
-    "genero": "Pop"
+    "genero": "Cuarteto"
   },
   {
     "id": 75,
@@ -513,43 +513,43 @@
     "id": 86,
     "artista": "La Beriso & Victor Heredia",
     "cancion": "Sobreviviendo",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 87,
     "artista": "La Beriso",
     "cancion": "No Me Olvides",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 88,
     "artista": "La Joven Guardia",
     "cancion": "El Extraño De Pelo Largo",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 89,
     "artista": "La Konga & Pennisi",
     "cancion": "Universo Paralelo",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 90,
     "artista": "La Mona Gimenez",
     "cancion": "Quién Se Ha Tomado Todo El Vino",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 91,
     "artista": "La Mona Gimenez",
     "cancion": "Beso A Beso",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 92,
     "artista": "La Morocha",
     "cancion": "Luck Ra Feat. Bm",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 93,
@@ -615,7 +615,7 @@
     "id": 103,
     "artista": "La T Y La M",
     "cancion": "Amor De Vago",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 104,
@@ -636,12 +636,6 @@
     "genero": "Cumbia"
   },
   {
-    "id": 107,
-    "artista": "Varios",
-    "cancion": "Lo Mejor Del Amor   Rodrigo",
-    "genero": "Cumbia"
-  },
-  {
     "id": 108,
     "artista": "Los Abuelos De La Nada",
     "cancion": "Mil Horas",
@@ -651,7 +645,7 @@
     "id": 109,
     "artista": "Los Angeles Azules",
     "cancion": "Cómo Te Voy A Olvidar",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 110,
@@ -687,19 +681,19 @@
     "id": 115,
     "artista": "Los Bonnitos",
     "cancion": "Cae El Sol",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 116,
     "artista": "Los Caballeros De La Quema",
     "cancion": "Avanti Morocha",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 117,
     "artista": "Los Del Fuego",
     "cancion": "Jurabas Tu",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 118,
@@ -717,12 +711,12 @@
     "id": 120,
     "artista": "Los Gedes",
     "cancion": "Berretines De Verduga",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 121,
-    "artista": "Varios",
-    "cancion": "Los Palmeras   Cumbia Sobre El Mar",
+    "artista": "Los Palmeras",
+    "cancion": "Cumbia Sobre El Mar",
     "genero": "Cumbia"
   },
   {
@@ -741,25 +735,19 @@
     "id": 124,
     "artista": "Los Rodríguez",
     "cancion": "Sin Documentos",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 125,
     "artista": "Los Totora",
     "cancion": "Marchate Ahora",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 126,
     "artista": "Luck Ra & Khea",
     "cancion": "Hola Perdida",
-    "genero": "Cumbia"
-  },
-  {
-    "id": 127,
-    "artista": "Luck Ra, Khea",
-    "cancion": "Hola Perdida",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 128,
@@ -777,7 +765,7 @@
     "id": 130,
     "artista": "Luis Miguel",
     "cancion": "Ahora Te Puedes Marchar",
-    "genero": "Románticas"
+    "genero": "Pop"
   },
   {
     "id": 131,
@@ -789,7 +777,7 @@
     "id": 132,
     "artista": "Luis Miguel",
     "cancion": "Suave",
-    "genero": "Románticas"
+    "genero": "Pop"
   },
   {
     "id": 133,
@@ -843,12 +831,12 @@
     "id": 141,
     "artista": "Marama",
     "cancion": "Nena",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 142,
-    "artista": "Varios",
-    "cancion": "Marc Anthony  Nadie Como Ella",
+    "artista": "Marc Anthony",
+    "cancion": "Nadie Como Ella",
     "genero": "Pop"
   },
   {
@@ -861,7 +849,7 @@
     "id": 144,
     "artista": "Marco Antonio Solis",
     "cancion": "Si No Te Hubieras Ido",
-    "genero": "Románticas"
+    "genero": "Cumbia"
   },
   {
     "id": 145,
@@ -879,7 +867,7 @@
     "id": 147,
     "artista": "Miguel Rios",
     "cancion": "El Rock De La Carcel",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 148,
@@ -915,13 +903,13 @@
     "id": 153,
     "artista": "Nestor En Bloque",
     "cancion": "Una Calle Me Separa",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 154,
     "artista": "Nestor En Bloque",
     "cancion": "Una Calle Nos Separa",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 155,
@@ -939,7 +927,7 @@
     "id": 157,
     "artista": "Nickyjam & Enrique Iglesias",
     "cancion": "El Perdon",
-    "genero": "Pop"
+    "genero": "Reggaetón"
   },
   {
     "id": 158,
@@ -949,9 +937,9 @@
   },
   {
     "id": 159,
-    "artista": "Varios",
-    "cancion": "Pablo Tamagnini   El Rey",
-    "genero": "Cumbia"
+    "artista": "Pablo Tamagnini",
+    "cancion": "El Rey",
+    "genero": "Cuarteto"
   },
   {
     "id": 160,
@@ -963,19 +951,19 @@
     "id": 161,
     "artista": "Pappo",
     "cancion": "Juntos A La Par",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 162,
     "artista": "Patricio rey y sus redonditos de ricota",
     "cancion": "Ji Ji Ji",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 163,
     "artista": "Patricio rey y sus redonditos de ricota",
     "cancion": "Un Angel Para Tu Soledad",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 164,
@@ -1035,7 +1023,7 @@
     "id": 173,
     "artista": "Rata Blanca",
     "cancion": "Mujer Amante",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 174,
@@ -1065,7 +1053,7 @@
     "id": 178,
     "artista": "Ricky Martin",
     "cancion": "Tu Recuerdo",
-    "genero": "Pop"
+    "genero": "Románticas"
   },
   {
     "id": 179,
@@ -1077,91 +1065,91 @@
     "id": 180,
     "artista": "Rodrigo",
     "cancion": "CóMo Le Digo",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 181,
     "artista": "Rodrigo",
     "cancion": "Fuego Y Pasión",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 182,
     "artista": "Rodrigo",
     "cancion": "Lo Mejor Del Amor",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 183,
     "artista": "Rodrigo",
     "cancion": "Ocho Cuarenta",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 184,
     "artista": "Rodrigo",
     "cancion": "Qué IroníA",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 185,
     "artista": "Rodrigo",
     "cancion": "Soy Cordobez",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 186,
     "artista": "Rodrigo",
     "cancion": "Y Voló Voló",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 187,
     "artista": "Rombai & Marama",
     "cancion": "Noche Loca",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 188,
     "artista": "Rombai",
     "cancion": "Locuras Contigo",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 189,
     "artista": "Roque Narvaja",
     "cancion": "Menta Y Limon",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 190,
-    "artista": "Roze & Valen & Vargas Max Carra",
+    "artista": "Roze, Valen & Vargas",
     "cancion": "Tu Jardin Con Enanitos",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 191,
     "artista": "Sandro",
     "cancion": "Penumbras",
-    "genero": "Rock Nacional"
+    "genero": "Románticas"
   },
   {
     "id": 192,
     "artista": "Sandro",
     "cancion": "Rosa Rosa",
-    "genero": "Rock Nacional"
+    "genero": "Románticas"
   },
   {
     "id": 193,
     "artista": "Selena",
     "cancion": "Amor Prohibido",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 194,
     "artista": "Selena",
     "cancion": "Como La Flor",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 195,
@@ -1209,13 +1197,13 @@
     "id": 202,
     "artista": "Supermerk2",
     "cancion": "La Resaca",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 203,
     "artista": "Tambo Tambo",
     "cancion": "El Perdedor",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 204,
@@ -1263,13 +1251,13 @@
     "id": 211,
     "artista": "Ulises Bueno",
     "cancion": "Ahora Mirame",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 212,
     "artista": "Vicentico",
     "cancion": "Los Caminos De La Vida",
-    "genero": "Pop"
+    "genero": "Rock Nacional"
   },
   {
     "id": 213,
@@ -1287,19 +1275,19 @@
     "id": 215,
     "artista": "Walter Olmos",
     "cancion": "Por Lo Que Yo Te Quiero",
-    "genero": "Cumbia"
+    "genero": "Cuarteto"
   },
   {
     "id": 216,
     "artista": "Ángela Leiva",
     "cancion": "Amiga Traidora",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 217,
     "artista": "Azul Azul",
     "cancion": "La Bomba",
-    "genero": "Pop"
+    "genero": "Cumbia"
   },
   {
     "id": 218,
@@ -1365,7 +1353,7 @@
     "id": 228,
     "artista": "Ricky Martin",
     "cancion": "Disparo Al Corazón",
-    "genero": "Pop"
+    "genero": "Románticas"
   },
   {
     "id": 229,
