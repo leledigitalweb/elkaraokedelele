@@ -6,6 +6,9 @@ function isBizarreadas(artista, cancion) {
   const txt = normalize(`${artista} ${cancion}`);
   return biz.some(b => txt.includes(b));
 }
+function isDueto(artista) {
+  return artista.includes("&");
+}
 
 let allSongs = [];
 let filtered = [];
@@ -21,10 +24,10 @@ const filtersEl = document.getElementById("filters");
 async function load() {
   const res = await fetch("canciones.json");
   allSongs = await res.json();
-  // marcar carta y bizarreadas
   allSongs = allSongs.map(s => ({
     ...s,
     _biz: isBizarreadas(s.artista, s.cancion),
+    _dueto: isDueto(s.artista),
     _norm: normalize(s.artista + " " + s.cancion)
   }));
   apply();
@@ -38,6 +41,7 @@ function apply() {
     if (currentFilter === "Todos") return true;
     if (currentFilter === "Carta") return s._carta;
     if (currentFilter === "Bizarreadas") return s._biz;
+    if (currentFilter === "Duetos") return s._dueto;
     return s.genero === currentFilter;
   });
   visible = 40;
