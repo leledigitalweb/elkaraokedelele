@@ -79,8 +79,8 @@
   },
   {
     "id": 14,
-    "artista": "Rodrigo",
-    "cancion": "Amor Clasificado",
+    "artista": "Varios",
+    "cancion": "Amor Clasificado   Rodrigo",
     "genero": "Cumbia"
   },
   {
@@ -205,8 +205,8 @@
   },
   {
     "id": 35,
-    "artista": "Rodrigo",
-    "cancion": "CóMo Le Digo",
+    "artista": "Varios",
+    "cancion": "CóMo Le Digo   Rodrigo",
     "genero": "Cumbia"
   },
   {
@@ -334,6 +334,12 @@
     "artista": "Gianluca Grignani",
     "cancion": "Mi Historia Entre Tus Dedos",
     "genero": "Pop"
+  },
+  {
+    "id": 57,
+    "artista": "Varios",
+    "cancion": "Gilda   CorazóN Valiente",
+    "genero": "Cumbia"
   },
   {
     "id": 58,
@@ -589,8 +595,8 @@
   },
   {
     "id": 100,
-    "artista": "La Quinta Estacion",
-    "cancion": "Que Te Queria",
+    "artista": "Varios",
+    "cancion": "La Quinta Estacion Karaoke Que Te Queria",
     "genero": "Pop"
   },
   {
@@ -631,8 +637,8 @@
   },
   {
     "id": 107,
-    "artista": "Rodrigo",
-    "cancion": "Lo Mejor Del Amor",
+    "artista": "Varios",
+    "cancion": "Lo Mejor Del Amor   Rodrigo",
     "genero": "Cumbia"
   },
   {
@@ -715,8 +721,8 @@
   },
   {
     "id": 121,
-    "artista": "Los Palmeras",
-    "cancion": "Cumbia Sobre El Mar",
+    "artista": "Varios",
+    "cancion": "Los Palmeras   Cumbia Sobre El Mar",
     "genero": "Cumbia"
   },
   {
@@ -841,8 +847,8 @@
   },
   {
     "id": 142,
-    "artista": "Marc Anthony",
-    "cancion": "Nadie Como Ella",
+    "artista": "Varios",
+    "cancion": "Marc Anthony  Nadie Como Ella",
     "genero": "Pop"
   },
   {
@@ -943,8 +949,8 @@
   },
   {
     "id": 159,
-    "artista": "Pablo Tamagnini",
-    "cancion": "El Rey",
+    "artista": "Varios",
+    "cancion": "Pablo Tamagnini   El Rey",
     "genero": "Cumbia"
   },
   {
@@ -1287,6 +1293,90 @@
     "id": 216,
     "artista": "Ángela Leiva",
     "cancion": "Amiga Traidora",
+    "genero": "Pop"
+  },
+  {
+    "id": 217,
+    "artista": "Azul Azul",
+    "cancion": "La Bomba",
+    "genero": "Pop"
+  },
+  {
+    "id": 218,
+    "artista": "Bandana",
+    "cancion": "Maldita Noche",
+    "genero": "Pop"
+  },
+  {
+    "id": 219,
+    "artista": "Chayanne",
+    "cancion": "Lo Dejaría Todo",
+    "genero": "Románticas"
+  },
+  {
+    "id": 220,
+    "artista": "Chocolate",
+    "cancion": "Mayonesa",
+    "genero": "Pop"
+  },
+  {
+    "id": 221,
+    "artista": "El Símbolo",
+    "cancion": "Levantando Las Manos",
+    "genero": "Pop"
+  },
+  {
+    "id": 222,
+    "artista": "Gaby",
+    "cancion": "El Meneaito",
+    "genero": "Pop"
+  },
+  {
+    "id": 223,
+    "artista": "Las Ketchup",
+    "cancion": "Asereje",
+    "genero": "Pop"
+  },
+  {
+    "id": 224,
+    "artista": "Luciano Pereyra",
+    "cancion": "Porque Aún Te Amo",
+    "genero": "Románticas"
+  },
+  {
+    "id": 225,
+    "artista": "Mambru",
+    "cancion": "A Veces",
+    "genero": "Pop"
+  },
+  {
+    "id": 226,
+    "artista": "Patito Feo",
+    "cancion": "Las Divinas",
+    "genero": "Pop"
+  },
+  {
+    "id": 227,
+    "artista": "Paulina Rubio",
+    "cancion": "Yo No Soy Esa Mujer",
+    "genero": "Pop"
+  },
+  {
+    "id": 228,
+    "artista": "Ricky Martin",
+    "cancion": "Disparo Al Corazón",
+    "genero": "Pop"
+  },
+  {
+    "id": 229,
+    "artista": "Turf",
+    "cancion": "Loco Un Poco",
+    "genero": "Pop"
+  },
+  {
+    "id": 230,
+    "artista": "Xuxa",
+    "cancion": "Ilarié",
     "genero": "Pop"
   }
 ]

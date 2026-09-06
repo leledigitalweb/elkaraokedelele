@@ -2,7 +2,7 @@ function normalize(s) {
   return s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
 }
 function isBizarreadas(artista, cancion) {
-  const biz = ["meneaito", "bomba azul", "olvidame y pega", "mayonesa", "levantando las manos", "guapas", "mambr", "divinas", "aserej", "nunca me faltes", "esa malvada", "tonta comanche", "comanche", "el santo", "chocolate 2000", "el simbolo", "bandana", "patito", "ketchup", "gaby"];
+  const biz = ["meneaito", "bomba azul", "olvidame y pega", "mayonesa", "levantando las manos", "guapas", "mambr", "divinas", "aserej", "nunca me faltes", "esa malvada", "tonta comanche", "comanche", "el santo", "chocolate", "el simbolo", "bandana", "patito", "ketchup", "gaby", "xuxa", "ilarie", "bandana", "guapas", "maldita noche"];
   const txt = normalize(`${artista} ${cancion}`);
   return biz.some(b => txt.includes(b));
 }
