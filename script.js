@@ -99,7 +99,7 @@ window.openModal = function (id) {
   const s = allSongs.find(x => x.id === id);
   if (!s) return;
   currentSong = s;
-  document.getElementById("modalSong").textContent = `${s.artista} - ${s.cancion}`;
+  // document.getElementById("modalSong").textContent = `${s.artista} - ${s.cancion}`;
   document.getElementById("modalCode").textContent = `${s.cancion} - ${s.artista}`;
   document.getElementById("modal").classList.remove("hidden");
 }
