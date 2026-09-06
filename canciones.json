@@ -199,15 +199,9 @@
   },
   {
     "id": 34,
-    "artista": "Commanche",
+    "artista": "Comanche",
     "cancion": "Como Te Lo Digo",
     "genero": "Cumbia"
-  },
-  {
-    "id": 35,
-    "artista": "Rodrigo",
-    "cancion": "CóMo Le Digo",
-    "genero": "Cuarteto"
   },
   {
     "id": 36,
@@ -334,12 +328,6 @@
     "artista": "Gianluca Grignani",
     "cancion": "Mi Historia Entre Tus Dedos",
     "genero": "Románticas"
-  },
-  {
-    "id": 57,
-    "artista": "Varios",
-    "cancion": "Gilda   CorazóN Valiente",
-    "genero": "Cumbia"
   },
   {
     "id": 58,
@@ -595,8 +583,8 @@
   },
   {
     "id": 100,
-    "artista": "Varios",
-    "cancion": "La Quinta Estacion Karaoke Que Te Queria",
+    "artista": "La Quinta Estacion",
+    "cancion": "Que Te Queria",
     "genero": "Pop"
   },
   {
@@ -906,12 +894,6 @@
     "genero": "Cumbia"
   },
   {
-    "id": 154,
-    "artista": "Nestor En Bloque",
-    "cancion": "Una Calle Nos Separa",
-    "genero": "Cumbia"
-  },
-  {
     "id": 155,
     "artista": "Nicky Jam & Enrique Iglesias",
     "cancion": "El Perdon",
@@ -921,12 +903,6 @@
     "id": 156,
     "artista": "Nicky Jam",
     "cancion": "Travesuras",
-    "genero": "Reggaetón"
-  },
-  {
-    "id": 157,
-    "artista": "Nickyjam & Enrique Iglesias",
-    "cancion": "El Perdon",
     "genero": "Reggaetón"
   },
   {
@@ -1064,7 +1040,7 @@
   {
     "id": 180,
     "artista": "Rodrigo",
-    "cancion": "CóMo Le Digo",
+    "cancion": "Cómo le digo",
     "genero": "Cuarteto"
   },
   {
@@ -1171,7 +1147,7 @@
   },
   {
     "id": 198,
-    "artista": "Soda Estereo",
+    "artista": "Soda Stereo",
     "cancion": "Cuando Pase El Temblor",
     "genero": "Rock Nacional"
   },
