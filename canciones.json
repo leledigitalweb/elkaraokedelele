@@ -1342,5 +1342,293 @@
     "artista": "Xuxa",
     "cancion": "Ilarié",
     "genero": "Pop"
-  }
+  },
+      {
+        "id": 231,
+        "artista": "Azucar Moreno",
+        "cancion": "Solo Se Vive Una Vez",
+        "genero": "Pop"
+    },
+    {
+        "id": 232,
+        "artista": "Bacilos",
+        "cancion": "Caraluna",
+        "genero": "Pop"
+    },
+    {
+        "id": 233,
+        "artista": "Banda XXI",
+        "cancion": "Ropa Apretaita",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 234,
+        "artista": "Cali Y El Dandee",
+        "cancion": "La Estrategia",
+        "genero": "Reggaetón"
+    },
+    {
+        "id": 235,
+        "artista": "Callejeros",
+        "cancion": "9 De Julio",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 236,
+        "artista": "Carlos Vives & Sebastian Yatra",
+        "cancion": "Robarte Un Beso",
+        "genero": "Pop"
+    },
+    {
+        "id": 237,
+        "artista": "Celia Cruz",
+        "cancion": "La Vida Es Un Carnaval",
+        "genero": "Pop"
+    },
+    {
+        "id": 238,
+        "artista": "Charly García",
+        "cancion": "Demoliendo Hoteles",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 239,
+        "artista": "Chino & Nacho Feat. Daddy Yankee",
+        "cancion": "Andas En Mi Cabeza",
+        "genero": "Reggaetón"
+    },
+    {
+        "id": 240,
+        "artista": "CNCO",
+        "cancion": "Reggaetón Lento",
+        "genero": "Reggaetón"
+    },
+    {
+        "id": 241,
+        "artista": "Dalila",
+        "cancion": "Te Perdoné Tantas Veces",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 242,
+        "artista": "Diego Torres",
+        "cancion": "Color Esperanza",
+        "genero": "Pop"
+    },
+    {
+        "id": 243,
+        "artista": "Donald",
+        "cancion": "Las Olas Y El Viento",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 244,
+        "artista": "Enanitos Verdes",
+        "cancion": "La Muralla Verde",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 245,
+        "artista": "JAF",
+        "cancion": "Maravillosa Esta Noche",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 246,
+        "artista": "Joe Cocker",
+        "cancion": "Unchain My Heart",
+        "genero": "Pop"
+    },
+    {
+        "id": 247,
+        "artista": "Juan Luis Guerra",
+        "cancion": "La Bilirrubina",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 248,
+        "artista": "La Nueva Luna",
+        "cancion": "Choque De Cometas",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 249,
+        "artista": "La Nueva Luna",
+        "cancion": "Dime",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 250,
+        "artista": "Los Náufragos",
+        "cancion": "Estoy Hecho Un Demonio",
+        "genero": "Pop"
+    },
+    {
+        "id": 251,
+        "artista": "Los Wawancó",
+        "cancion": "Atrévete A Mirarme De Frente",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 252,
+        "artista": "Marta Sánchez",
+        "cancion": "Desesperada",
+        "genero": "Pop"
+    },
+    {
+        "id": 253,
+        "artista": "Nino Bravo",
+        "cancion": "Un Beso Y Una Flor",
+        "genero": "Pop"
+    },
+    {
+        "id": 254,
+        "artista": "Pappo",
+        "cancion": "Desconfío",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 255,
+        "artista": "Pappo",
+        "cancion": "Mi Vieja",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 256,
+        "artista": "Pappo",
+        "cancion": "Rock And Roll Y Fiebre",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 257,
+        "artista": "Ricardo Arjona",
+        "cancion": "Te Conozco",
+        "genero": "Románticas"
+    },
+    {
+        "id": 258,
+        "artista": "Ricky Maravilla",
+        "cancion": "El Petiso",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 259,
+        "artista": "Romeo Santos",
+        "cancion": "Propuesta Indecente",
+        "genero": "Románticas"
+    },
+    {
+        "id": 260,
+        "artista": "Rubén Rada",
+        "cancion": "Cha Cha Muchacha",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 261,
+        "artista": "Sabroso",
+        "cancion": "Amor Multiplicado Por 2",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 262,
+        "artista": "Sabroso",
+        "cancion": "Llegó Tu Papi",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 263,
+        "artista": "Sandro",
+        "cancion": "Dame Fuego",
+        "genero": "Pop"
+    },
+    {
+        "id": 264,
+        "artista": "Sandro",
+        "cancion": "Por Ese Palpitar",
+        "genero": "Pop"
+    },
+    {
+        "id": 265,
+        "artista": "Sebastián",
+        "cancion": "Que No Se Pare De Bailar",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 266,
+        "artista": "Soda Stereo",
+        "cancion": "Juego De Seducción",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 267,
+        "artista": "Supermerk2",
+        "cancion": "La Lata",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 268,
+        "artista": "Tambo Tambo",
+        "cancion": "El Campanero",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 269,
+        "artista": "Tambo Tambo",
+        "cancion": "La Cumbita",
+        "genero": "Cumbia"
+    },
+    {
+        "id": 270,
+        "artista": "Trulala",
+        "cancion": "Bajo La Rambla",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 271,
+        "artista": "Trulala",
+        "cancion": "Como Tú",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 272,
+        "artista": "Trulala",
+        "cancion": "Elizabeth",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 273,
+        "artista": "Trulala",
+        "cancion": "Ese Lobo",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 274,
+        "artista": "Trulala",
+        "cancion": "Tres",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 275,
+        "artista": "Ulises Bueno",
+        "cancion": "Dale Vieja Dale",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 276,
+        "artista": "Ulises Bueno",
+        "cancion": "Intento",
+        "genero": "Cuarteto"
+    },
+    {
+        "id": 277,
+        "artista": "Vilma Palma E Vampiros",
+        "cancion": "Auto Rojo",
+        "genero": "Rock Nacional"
+    },
+    {
+        "id": 278,
+        "artista": "Vilma Palma E Vampiros",
+        "cancion": "La Pachanga",
+        "genero": "Rock Nacional"
+    }
 ]
